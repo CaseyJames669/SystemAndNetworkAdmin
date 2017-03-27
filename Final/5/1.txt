@@ -1,0 +1,36 @@
+Setting	State	Comment
+AppleTalk Routing	Not configured	No
+Authorization Manager	Not configured	No
+Certification Authority Policy Settings	Not configured	No
+Connection Sharing (NAT)	Disabled	No
+DCOM Configuration Extension	Not configured	No
+DHCP Relay Management	Not configured	No
+Device Manager	Not configured	No
+Event Viewer	Not configured	No
+Event Viewer (Windows Vista)	Not configured	No
+IAS Logging	Not configured	No
+IGMP Routing	Not configured	No
+IP Routing	Not configured	No
+IPX RIP Routing	Not configured	No
+IPX Routing	Not configured	No
+IPX SAP Routing	Not configured	No
+Logical and Mapped Drives	Not configured	No
+OSPF Routing	Not configured	No
+Public Key Policies	Not configured	No
+RAS Dialin - User Node	Not configured	No
+RIP Routing	Not configured	No
+Removable Storage	Not configured	No
+Remote Access	Not configured	No
+Routing	Not configured	No
+SMTP Protocol	Disabled	No
+SNMP	Disabled	No
+Send Console Message	Not configured	No
+Service Dependencies	Not configured	No
+Shared Folders Ext	Not configured	No
+System Properties	Not configured	No
+DFS Management Extension	Not configured	No
+Disk Management Extension	Not configured	No
+File Server Resource Manager Extension	Not configured	No
+Share and Storage Management Extension	Not configured	No
+Storage Manager for SANS Extension	Not configured	No
+Extended View (Web View)	Not configured	No

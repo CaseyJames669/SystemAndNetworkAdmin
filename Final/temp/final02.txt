@@ -1,0 +1,112 @@
+
+
+List of Admin Group Members 
+"CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org"
+"CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org"
+
+ECHO is on.
+List of Groups and Members 
+"CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org"
+"CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org"
+
+"CN=Non Admin,OU=GEQ,DC=dragon,DC=example,DC=org"
+"CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org"
+"CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org"
+
+"CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org"
+
+ECHO is on.
+List each logon in OU with SAMID 
+  dn                                                 samid     
+  CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org      Admin2    
+  CN=Non Admin,OU=GEQ,DC=dragon,DC=example,DC=org    nonAdmin  
+  CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org       CaseyGEQ  
+dsget succeeded
+ECHO is on.
+List Expiration Dates 
+  dn                                                 acctexpires  
+  CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org      12/18/2014   
+  CN=Non Admin,OU=GEQ,DC=dragon,DC=example,DC=org    12/18/2014   
+  CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org       12/18/2014   
+dsget succeeded
+ECHO is on.
+List distinguished name 
+  dn                                               
+  CN=Admin 2,OU=GEQ,DC=dragon,DC=example,DC=org    
+  CN=Non Admin,OU=GEQ,DC=dragon,DC=example,DC=org  
+  CN=Bladow,OU=GEQ,DC=dragon,DC=example,DC=org     
+dsget succeeded
+ECHO is on.
+List Display name 
+  display       
+  Admin 2       
+  Non Admin     
+  Casey Bladow  
+dsget succeeded
+ECHO is on.
+List Employee ID 
+  display         empid      
+  Admin 2                    
+  Non Admin                  
+  Casey Bladow    mnscu0015  
+dsget succeeded
+ECHO is on.
+Logon Description 
+  desc                     display       
+                           Admin 2       
+                           Non Admin     
+  Student Administrator    Casey Bladow  
+dsget succeeded
+ECHO is on.
+List departments 
+  display         dept  
+  Admin 2               
+  Non Admin             
+  Casey Bladow          
+dsget succeeded
+ECHO is on.
+The current date is: Tue 12/16/2014 
+
+------------- BATCH FILE ------------------------
+REM Author: Casey Bladow >> final02.txt
+REM Creation Date: 12.15.14 >> final02.txt
+REM Outside: Google >> final02.txt
+REM Script Purpose: Fullful requirements of 2.8.1 >> final02.txt
+
+ECHO List of Admin Group Members >> final02.txt
+dsget group "CN=Administration,OU=GEQ,DC=dragon,DC=example,DC=org" -members >> final02.txt
+ECHO >> final02.txt
+
+ECHO List of Groups and Members >> final02.txt
+dsquery group "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget group -members >> final02.txt
+ECHO >> final02.txt
+
+ECHO List each logon in OU with SAMID >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -dn -samid >> final02.txt
+ECHO >> final02.txt
+
+ECHO List Expiration Dates >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" -name * | dsget user -dn -acctexpires >> final02.txt
+ECHO >> final02.txt
+
+ECHO List distinguished name >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -dn >> final02.txt
+ECHO >> final02.txt
+
+ECHO List Display name >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -display >> final02.txt
+ECHO >> final02.txt
+
+ECHO List Employee ID >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -display -empid >> final02.txt
+ECHO >> final02.txt
+
+ECHO Logon Description >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -display -desc >> final02.txt
+ECHO >> final02.txt
+
+ECHO List departments >> final02.txt
+dsquery user "OU=GEQ,DC=dragon,DC=example,DC=org" | dsget user -display -dept >> final02.txt
+ECHO >> final02.txt
+
+date >> final02.txt

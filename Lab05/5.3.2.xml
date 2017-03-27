@@ -1,0 +1,39 @@
+Log Name:      Microsoft-Windows-PrintService/Operational
+Source:        Microsoft-Windows-PrintService
+Date:          10/26/2014 4:04:05 PM
+Event ID:      812
+Task Category: Executing a file operation
+Level:         Error
+Keywords:      Print Spooler
+User:          DRAGON\CaseyAND
+Computer:      peru.dragon.example.org
+Description:
+The print spooler failed to delete the file C:\Windows\system32\spool\PRINTERS\00008.SHD, error code 0x2. See the event user data for context information.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PrintService" Guid="{747EF6FD-E535-4D16-B510-42C90F6873A1}" />
+    <EventID>812</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>46</Task>
+    <Opcode>12</Opcode>
+    <Keywords>0x4000000000020000</Keywords>
+    <TimeCreated SystemTime="2014-10-26T21:04:05.215830000Z" />
+    <EventRecordID>636</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1124" ThreadID="5016" />
+    <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+    <Computer>peru.dragon.example.org</Computer>
+    <Security UserID="S-1-5-21-1113400074-3126433249-2230376872-2618" />
+  </System>
+  <UserData>
+    <FileOpFailed xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+      <Source>C:\Windows\system32\spool\PRINTERS\00008.SHD</Source>
+      <Destination>-</Destination>
+      <Flags>0x0</Flags>
+      <ErrorCode>0x2</ErrorCode>
+      <Context>104</Context>
+    </FileOpFailed>
+  </UserData>
+</Event>

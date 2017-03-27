@@ -1,0 +1,197 @@
+
+Interface 1: Loopback Pseudo-Interface 1
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite ::1
+
+Interface 12: isatap.dragon.example.org
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:192.168.165.1%12
+
+Interface 13: Local Area Connection* 9
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::100:7f:fffe%13
+
+Interface 11: Local Area Connection
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::7c4e:7b55:ee63:c26f%11
+Public     Preferred    29d23h57m   6d23h57m feca::7c4e:7b55:ee63:c26f%1
+
+
+MIB-II UDP Statistics
+------------------------------------------------------
+In Datagrams:                       661
+In Invalid Port:                    0
+In Erroneous Datagrams:             26348
+Out Datagrams:                      1316
+
+
+
+MIB-II TCP Statistics
+------------------------------------------------------
+Timeout Algorithm:                  Van Jacobson's Algorithm
+Minimum Timeout:                    10
+Maximum Timeout:                    4294967295
+Maximum Connections:                Dynamic
+Active Opens:                       228
+Passive Opens:                      2
+Attempts Failed:                    181
+Established Resets:                 23
+Currently Established:              0
+In Segments:                        505
+Out Segments:                       805
+Retransmitted Segments:             362
+In Errors:                          0
+Out Resets:                         22
+
+
+MIB-II IP Statistics
+------------------------------------------------------
+Forwarding is:                      Disabled
+Default TTL:                        128
+In Receives:                        29264
+In Header Errors:                   0
+In Address Errors:                  3
+Datagrams Forwarded:                0
+In Unknown Protocol:                0
+In Discarded:                       26897
+In Delivered:                       30511
+Out Requests:                       2986
+Routing Discards:                   0
+Out Discards:                       0
+Out No Routes:                      6
+Reassembly Timeout:                 60
+Reassembly Required:                7
+Reassembled Ok:                     3
+Reassembly Failures:                0
+Fragments Ok:                       0
+Fragments Failed:                   0
+Fragments Created:                  0
+
+
+
+Interface 1: Loopback Pseudo-Interface 1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::c                                                          Permanent 
+ff02::16                                                         Permanent 
+ff02::1:2                                                        Permanent 
+
+Interface 13: Local Area Connection* 9
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::16                                      255.255.255.255:65535  Permanent 
+ff02::1:2                                     255.255.255.255:65535  Permanent 
+
+Interface 11: Local Area Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::212:43ff:fe0c:c977                      00-12-43-0c-c9-77  Reachable (Router)
+fe80::85f:2d9c:dbea:b8cc                      00-19-d1-71-81-b0  Stale 
+fe80::b8f6:6b5c:1f1e:dac1                     00-0c-29-b2-a0-8b  Stale 
+fe80::e09d:81cf:bcda:d2fd                     00-19-d1-71-80-6b  Stale 
+feca::254                                     00-12-43-0c-c9-77  Stale (Router)
+feca::164:13                                  00-0c-29-c4-2a-cd  Stale 
+feca::164:14                                  00-0c-29-b2-a0-8b  Stale 
+feca::4148:ec39:648d:d53c                     00-0c-29-c4-2a-cd  Stale 
+feca::4389:8591:ffd3:1152                     00-0c-29-35-65-f9  Stale 
+feca::4cb1:7467:3021:b1dc                     00-0c-29-b2-a0-8b  Stale 
+feca::749d:acee:67d1:3566                     00-0c-29-35-65-f9  Stale 
+feca::b8f6:6b5c:1f1e:dac1                     00-0c-29-b2-a0-8b  Stale 
+feca::bc06:7e71:f529:c77b                     00-0c-29-c4-2a-cd  Stale 
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::c                                       33-33-00-00-00-0c  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff0c:c977                             33-33-ff-0c-c9-77  Permanent 
+ff02::1:ff1e:dac1                             33-33-ff-1e-da-c1  Permanent 
+ff02::1:ff21:b1dc                             33-33-ff-21-b1-dc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+ff02::1:ffda:d2fd                             33-33-ff-da-d2-fd  Permanent 
+ff02::1:ffe6:8346                             33-33-ff-e6-83-46  Permanent 
+ff02::1:ffea:b8cc                             33-33-ff-ea-b8-cc  Permanent 
+
+
+
+Pinging ::1 with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+Pinging honduras.dragon.example.org [feca::4148:ec39:648d:d53c%1] with 32 bytes of data:
+Reply from feca::4148:ec39:648d:d53c%1: time=2ms 
+Reply from feca::4148:ec39:648d:d53c%1: time=1ms 
+Reply from feca::4148:ec39:648d:d53c%1: time<1ms 
+Reply from feca::4148:ec39:648d:d53c%1: time<1ms 
+
+Ping statistics for feca::4148:ec39:648d:d53c%1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+Pinging panama.dragon.example.org [feca::4cb1:7467:3021:b1dc%1] with 32 bytes of data:
+Reply from feca::4cb1:7467:3021:b1dc%1: time=1ms 
+Reply from feca::4cb1:7467:3021:b1dc%1: time<1ms 
+Reply from feca::4cb1:7467:3021:b1dc%1: time<1ms 
+Reply from feca::4cb1:7467:3021:b1dc%1: time<1ms 
+
+Ping statistics for feca::4cb1:7467:3021:b1dc%1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+Pinging peru.dragon.example.org [feca::749d:acee:67d1:3566%1] with 32 bytes of data:
+Reply from feca::749d:acee:67d1:3566%1: time=2ms 
+Reply from feca::749d:acee:67d1:3566%1: time<1ms 
+Reply from feca::749d:acee:67d1:3566%1: time<1ms 
+Reply from feca::749d:acee:67d1:3566%1: time<1ms 
+
+Ping statistics for feca::749d:acee:67d1:3566%1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+Wed 10/01/2014 
+
+-----------batch file--------------------------------batch file---------------------
+
+REM Author: Casey Bladow 
+REM Created: 10/1/14
+REM Outside help:
+REM Purpose: For lab2.4
+netsh interface ipv6 show addresses >> lab24.txt
+netsh interface ipv6 show udpstats >> lab24.txt
+netsh interface ipv6 show tcpstats >> lab24.txt
+netsh interface ipv6 show ipstats >> lab24.txt
+netsh interface ipv6 show neighbors >> lab24.txt
+netsh interface ipv6 show siteprefixes >> lab24.txt
+ping ::1 >> lab24.txt
+ping -6 honduras.dragon.example.org >> lab24.txt
+ping -6 panama.dragon.example.org >> lab24.txt
+ping -6 peru.dragon.example.org >> lab24.txt
+date /T >> lab24.txt

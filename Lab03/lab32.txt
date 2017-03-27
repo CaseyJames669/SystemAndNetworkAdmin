@@ -1,0 +1,194 @@
+
+Domain Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Enable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+
+Private Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Enable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+
+Public Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Enable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+Ok.
+
+Querying active state...
+
+Temporary Address Parameters
+---------------------------------------------
+Use Temporary Addresses             : enabled
+Duplicate Address Detection Attempts: 5
+Maximum Valid Lifetime              : 7d
+Maximum Preferred Lifetime          : 1d
+Regenerate Time                     : 5s
+Maximum Random Time                 : 10m
+Random Time                         : 0s
+
+
+Interface 1: Loopback Pseudo-Interface 1
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite ::1
+
+Interface 12: isatap.dragon.example.org
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:192.168.165.1%12
+
+Interface 13: Local Area Connection* 9
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::e0:0:0:0%13
+
+Interface 11: Local Area Connection
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::7c4e:7b55:ee63:c26f%11
+Public     Preferred  29d23h57m42s 6d23h57m42s feca::7c4e:7b55:ee63:c26f%1
+
+
+Configuration for interface "Local Area Connection"
+    DNS servers configured through DHCP:  None
+    Register with which suffix:           Primary only
+
+Configuration for interface "Loopback Pseudo-Interface 1"
+    Statically Configured DNS Servers:    fec0:0:0:ffff::1%1
+                                          fec0:0:0:ffff::2%1
+                                          fec0:0:0:ffff::3%1
+    Register with which suffix:           Primary only
+
+Configuration for interface "isatap.dragon.example.org"
+    Statically Configured DNS Servers:    None
+    Register with which suffix:           None
+
+Configuration for interface "Local Area Connection* 9"
+    Statically Configured DNS Servers:    None
+    Register with which suffix:           None
+
+
+Publish  Type      Met  Prefix                    Idx  Gateway/Interface Name
+-------  --------  ---  ------------------------  ---  ------------------------
+No       Manual    256  ::/0                       11  fe80::212:43ff:fe0c:c977
+No       Manual    256  ::1/128                     1  Loopback Pseudo-Interface 1
+No       Manual    256  fe80::/64                  11  Local Area Connection
+No       Manual    256  fe80::/64                  13  Local Area Connection* 9
+No       Manual    256  fe80::5efe:192.168.165.1/128   12  isatap.dragon.example.org
+No       Manual    256  fe80::e0:0:0:0/128         13  Local Area Connection* 9
+No       Manual    256  fe80::7c4e:7b55:ee63:c26f/128   11  Local Area Connection
+No       Manual    8    feca::/64                  11  Local Area Connection
+No       Manual    256  feca::7c4e:7b55:ee63:c26f/128   11  Local Area Connection
+No       Manual    256  ff00::/8                    1  Loopback Pseudo-Interface 1
+No       Manual    256  ff00::/8                   13  Local Area Connection* 9
+No       Manual    256  ff00::/8                   11  Local Area Connection
+
+
+Configuration for interface "Local Area Connection"
+    DHCP enabled:                         Yes
+    IP Address:                           192.168.165.1
+    Subnet Prefix:                        192.168.164.0/22 (mask 255.255.252.0)
+    InterfaceMetric:                      10
+    DNS servers configured through DHCP:  192.168.164.13
+                                          192.168.164.14
+                                          192.168.164.14
+    Register with which suffix:           Primary only
+    WINS servers configured through DHCP: None
+
+Configuration for interface "Loopback Pseudo-Interface 1"
+    DHCP enabled:                         No
+    IP Address:                           127.0.0.1
+    Subnet Prefix:                        127.0.0.0/8 (mask 255.0.0.0)
+    InterfaceMetric:                      50
+    Statically Configured DNS Servers:    None
+    Register with which suffix:           Primary only
+    Statically Configured WINS Servers:   None
+
+
+Interface 1: Loopback Pseudo-Interface 1
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite 127.0.0.1
+
+Interface 11: Local Area Connection
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Dhcp       Preferred        9m47s      9m47s 192.168.165.1
+
+
+Publish  Type      Met  Prefix                    Idx  Gateway/Interface Name
+-------  --------  ---  ------------------------  ---  ------------------------
+No       Manual    256  127.0.0.0/8                 1  Loopback Pseudo-Interface 1
+No       Manual    256  127.0.0.1/32                1  Loopback Pseudo-Interface 1
+No       Manual    256  127.255.255.255/32          1  Loopback Pseudo-Interface 1
+No       Manual    256  192.168.164.0/22           11  Local Area Connection
+No       Manual    256  192.168.165.1/32           11  Local Area Connection
+No       Manual    256  192.168.167.255/32         11  Local Area Connection
+No       Manual    256  224.0.0.0/4                 1  Loopback Pseudo-Interface 1
+No       Manual    256  224.0.0.0/4                11  Local Area Connection
+No       Manual    256  255.255.255.255/32          1  Loopback Pseudo-Interface 1
+No       Manual    256  255.255.255.255/32         11  Local Area Connection
+
+Wed 10/01/2014 
+
+
+-----batch file----------batch file----------batch file----------batch file----------batch file-----
+
+REM Author: Casey Bladow  >> lab32.txt
+REM Created: 10/1/14 >> lab32.txt
+REM Outside help:  >> lab32.txt
+REM http://technet.microsoft.com/en-us/library/cc740203(v=ws.10).aspx#BKMK_38 >> lab32.txt
+REM http://technet.microsoft.com/en-us/library/cc738592(v=ws.10).aspx >> lab32.txt
+REM Purpose: For lab3.2 >> lab32.txt
+netsh advfirewall show allprofiles >> lab32.txt
+netsh interface ipv6 show privacy >> lab32.txt
+netsh interface ipv6 show address >> lab32.txt
+netsh interface ipv6 show dnsservers >> lab32.txt
+netsh interface ipv6 show route >> lab32.txt
+netsh interface ip show config >> lab32.txt
+netsh interface ip show ipaddress >> lab32.txt
+netsh interface ip show route >> lab32.txt
+date /T >> lab32.txt >> lab32.txt

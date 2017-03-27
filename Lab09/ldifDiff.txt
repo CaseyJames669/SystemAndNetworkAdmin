@@ -1,0 +1,224 @@
+Comparing files CaseyAND11222014.txt and CASEYAND11302014.TXT
+***** CaseyAND11222014.txt
+whenCreated: 20141122180451.0Z
+whenChanged: 20141122180453.0Z
+displayName: Mike S Adam
+***** CASEYAND11302014.TXT
+whenCreated: 20141122180451.0Z
+whenChanged: 20141123160649.0Z
+displayName: Mike S Adam
+*****
+
+***** CaseyAND11222014.txt
+memberOf: CN=Chi,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 346045
+department: Chicago Mobsters
+***** CASEYAND11302014.TXT
+memberOf: CN=Chi,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 349139
+department: Chicago Mobsters
+*****
+
+***** CaseyAND11222014.txt
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 130611530919682187
+***** CASEYAND11302014.TXT
+lastLogoff: 0
+lastLogon: 130612324095755407
+pwdLastSet: 130611530919682187
+*****
+
+***** CaseyAND11222014.txt
+accountExpires: 130634858937850350
+logonCount: 0
+sAMAccountName: AdamMi
+***** CASEYAND11302014.TXT
+accountExpires: 130634858937850350
+logonCount: 1
+sAMAccountName: AdamMi
+*****
+
+***** CaseyAND11222014.txt
+dSCorePropagationData: 16010101000000.0Z
+mail:: QWRhbU1pQGV4YW1wbGUuZXhhbXBsZS5vcmcg
+***** CASEYAND11302014.TXT
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 130612324095755407
+mail:: QWRhbU1pQGV4YW1wbGUuZXhhbXBsZS5vcmcg
+*****
+
+***** CaseyAND11222014.txt
+whenCreated: 20140904020308.0Z
+whenChanged: 20141120013422.0Z
+displayName: Casey Bladow
+***** CASEYAND11302014.TXT
+whenCreated: 20140904020308.0Z
+whenChanged: 20141130154924.0Z
+displayName: Casey Bladow
+*****
+
+***** CaseyAND11222014.txt
+memberOf: CN=Administration,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 337218
+department: Student
+***** CASEYAND11302014.TXT
+memberOf: CN=Administration,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 367123
+department: Student
+*****
+
+***** CaseyAND11222014.txt
+homeDrive: h:
+badPasswordTime: 130578888085508943
+lastLogoff: 0
+lastLogon: 130611475276063606
+pwdLastSet: 130587476755824982
+***** CASEYAND11302014.TXT
+homeDrive: h:
+badPasswordTime: 130612321462510734
+lastLogoff: 0
+lastLogon: 130618598299308380
+pwdLastSet: 130587476755824982
+*****
+
+***** CaseyAND11222014.txt
+accountExpires: 130634163938817309
+logonCount: 39
+sAMAccountName: CaseyAND
+***** CASEYAND11302014.TXT
+accountExpires: 130634163938817309
+logonCount: 45
+sAMAccountName: CaseyAND
+*****
+
+***** CaseyAND11222014.txt
+dSCorePropagationData: 16010101000416.0Z
+lastLogonTimestamp: 130609208478298343
+mail: bladowca@mnstate.edu
+***** CASEYAND11302014.TXT
+dSCorePropagationData: 16010101000416.0Z
+lastLogonTimestamp: 130618361491545149
+mail: bladowca@mnstate.edu
+*****
+
+***** CaseyAND11222014.txt
+whenCreated: 20141122180243.0Z
+whenChanged: 20141122180246.0Z
+displayName: Tove W Aarhus
+***** CASEYAND11302014.TXT
+whenCreated: 20141122180243.0Z
+whenChanged: 20141123154550.0Z
+displayName: Tove W Aarhus
+*****
+
+***** CaseyAND11222014.txt
+memberOf: CN=Alpha,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 344428
+department: Assistants
+***** CASEYAND11302014.TXT
+memberOf: CN=Alpha,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 349067
+department: Assistants
+*****
+
+***** CaseyAND11222014.txt
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 130611529646751763
+***** CASEYAND11302014.TXT
+lastLogoff: 0
+lastLogon: 130612330037616756
+pwdLastSet: 130611529646751763
+*****
+
+***** CaseyAND11222014.txt
+accountExpires: 130634857667139421
+logonCount: 0
+sAMAccountName: AarhusTo
+***** CASEYAND11302014.TXT
+accountExpires: 130634857667139421
+logonCount: 2
+sAMAccountName: AarhusTo
+*****
+
+***** CaseyAND11222014.txt
+dSCorePropagationData: 16010101000000.0Z
+mail:: QWFyaHVzVG9AZXhhbXBsZS5leGFtcGxlLm9yZyA=
+***** CASEYAND11302014.TXT
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 130612311505931260
+mail:: QWFyaHVzVG9AZXhhbXBsZS5leGFtcGxlLm9yZyA=
+*****
+
+***** CaseyAND11222014.txt
+whenCreated: 20141122180350.0Z
+whenChanged: 20141122180352.0Z
+displayName: William S Abrams
+***** CASEYAND11302014.TXT
+whenCreated: 20141122180350.0Z
+whenChanged: 20141123161017.0Z
+displayName: William S Abrams
+*****
+
+***** CaseyAND11222014.txt
+memberOf: CN=Beta,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 345256
+department: Balloons
+***** CASEYAND11302014.TXT
+memberOf: CN=Beta,OU=AND,DC=dragon,DC=example,DC=org
+uSNChanged: 349164
+department: Balloons
+*****
+
+***** CaseyAND11222014.txt
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 130611530307678110
+***** CASEYAND11302014.TXT
+lastLogoff: 0
+lastLogon: 130612326170040811
+pwdLastSet: 130611530307678110
+*****
+
+***** CaseyAND11222014.txt
+accountExpires: 130634858326651429
+logonCount: 0
+sAMAccountName: AbramsWi
+***** CASEYAND11302014.TXT
+accountExpires: 130634858326651429
+logonCount: 1
+sAMAccountName: AbramsWi
+*****
+
+***** CaseyAND11222014.txt
+dSCorePropagationData: 16010101000000.0Z
+mail:: QWJyYW1zV2lAZXhhbXBsZS5leGFtcGxlLm9yZyA=
+***** CASEYAND11302014.TXT
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 130612326170040811
+mail:: QWJyYW1zV2lAZXhhbXBsZS5leGFtcGxlLm9yZyA=
+*****
+
+***** CaseyAND11222014.txt
+
+Sat 11/22/2014 
+02:19 PM
+***** CASEYAND11302014.TXT
+
+Sun 11/30/2014 
+04:25 PM
+*****
+
+Sun 11/30/2014 
+04:53 PM
+
+-----------------------BATCH FILE-------------------------
+
+REM Author: Casey Bladow
+REM Creation Date: 11/30/2014
+REM Outside Help: technet.microsoft.com\en-us\library\ee156812.aspx
+REM Purpose: Compare two ldif outputs from two different days and output the differences to an output file
+FC CaseyAND11222014.txt CaseyAND11302014.txt >> ldifDiff.txt
+DATE /T>> ldifDiff.txt
+TIME /T>> ldifDiff.txt

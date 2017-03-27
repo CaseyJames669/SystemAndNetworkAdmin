@@ -1,0 +1,709 @@
+"netsh interface ipv4 show addresses" 
+
+Configuration for interface "Local Area Connection 2"
+    DHCP enabled:                         Yes
+    InterfaceMetric:                      30
+
+Configuration for interface "Wireless Network Connection 3"
+    DHCP enabled:                         Yes
+    InterfaceMetric:                      5
+
+Configuration for interface "Wireless Network Connection 2"
+    DHCP enabled:                         Yes
+    InterfaceMetric:                      5
+
+Configuration for interface "Wireless Network Connection"
+    DHCP enabled:                         Yes
+    IP Address:                           192.168.184.46
+    Subnet Prefix:                        192.168.176.0/20 (mask 255.255.240.0)
+    Default Gateway:                      192.168.176.3
+    Gateway Metric:                       0
+    InterfaceMetric:                      25
+
+Configuration for interface "Local Area Connection"
+    DHCP enabled:                         Yes
+    IP Address:                           192.168.165.0
+    Subnet Prefix:                        192.168.164.0/22 (mask 255.255.252.0)
+    InterfaceMetric:                      10
+
+Configuration for interface "VMware Network Adapter VMnet1"
+    DHCP enabled:                         No
+    IP Address:                           169.254.237.67
+    Subnet Prefix:                        169.254.0.0/16 (mask 255.255.0.0)
+    InterfaceMetric:                      20
+
+Configuration for interface "VMware Network Adapter VMnet8"
+    DHCP enabled:                         No
+    IP Address:                           192.168.80.1
+    Subnet Prefix:                        192.168.80.0/24 (mask 255.255.255.0)
+    InterfaceMetric:                      20
+
+Configuration for interface "Loopback Pseudo-Interface 1"
+    DHCP enabled:                         No
+    IP Address:                           127.0.0.1
+    Subnet Prefix:                        127.0.0.0/8 (mask 255.0.0.0)
+    InterfaceMetric:                      50
+
+"netsh interface ipv4 show udpstats" 
+
+MIB-II UDP Statistics
+------------------------------------------------------
+In Datagrams:                       23619
+In Invalid Port:                    2625
+In Erroneous Datagrams:             5353
+Out Datagrams:                      29479
+
+
+"netsh interface ipv4 show tcpstats" 
+
+MIB-II TCP Statistics
+------------------------------------------------------
+Timeout Algorithm:                  Van Jacobson's Algorithm
+Minimum Timeout:                    10
+Maximum Timeout:                    4294967295
+Maximum Connections:                Dynamic
+Active Opens:                       4346
+Passive Opens:                      25
+Attempts Failed:                    19
+Established Resets:                 284
+Currently Established:              18
+In Segments:                        1081990
+Out Segments:                       628732
+Retransmitted Segments:             9715
+In Errors:                          0
+Out Resets:                         1110
+
+
+"netsh interface ipv4 show ipstats" 
+MIB-II IP Statistics
+------------------------------------------------------
+Forwarding is:                      Disabled
+Default TTL:                        128
+In Receives:                        1107933
+In Header Errors:                   0
+In Address Errors:                  14441
+Datagrams Forwarded:                0
+In Unknown Protocol:                0
+In Discarded:                       8073
+In Delivered:                       1114040
+Out Requests:                       668540
+Routing Discards:                   0
+Out Discards:                       36
+Out No Routes:                      13
+Reassembly Timeout:                 60
+Reassembly Required:                0
+Reassembled Ok:                     0
+Reassembly Failures:                0
+Fragments Ok:                       0
+Fragments Failed:                   0
+Fragments Created:                  0
+
+
+"netsh interface ipv4 show neighbors" 
+
+Interface 1: Loopback Pseudo-Interface 1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+127.0.0.0                                                        Permanent 
+224.0.0.22                                                       Permanent 
+239.255.255.250                                                  Permanent 
+
+Interface 11: Wireless Network Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+192.168.176.1                                 00-0f-90-9f-bd-80  Stale 
+192.168.176.3                                 00-1b-78-5b-b1-e7  Reachable 
+192.168.191.255                               ff-ff-ff-ff-ff-ff  Permanent 
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+224.0.0.252                                   01-00-5e-00-00-fc  Permanent 
+239.255.255.250                               01-00-5e-7f-ff-fa  Permanent 
+255.255.255.255                               ff-ff-ff-ff-ff-ff  Permanent 
+
+Interface 15: Wireless Network Connection 2
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+255.255.255.255                               ff-ff-ff-ff-ff-ff  Permanent 
+
+Interface 10: Local Area Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+192.168.164.13                                00-0c-29-c4-2a-cd  Stale 
+192.168.164.14                                00-0c-29-b2-a0-8b  Stale 
+192.168.164.16                                00-0c-29-35-65-f9  Stale 
+192.168.167.255                               ff-ff-ff-ff-ff-ff  Permanent 
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+224.0.0.252                                   01-00-5e-00-00-fc  Permanent 
+239.255.255.250                               01-00-5e-7f-ff-fa  Permanent 
+255.255.255.255                               ff-ff-ff-ff-ff-ff  Permanent 
+
+Interface 26: VMware Network Adapter VMnet1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+169.254.255.255                               ff-ff-ff-ff-ff-ff  Permanent 
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+224.0.0.252                                   01-00-5e-00-00-fc  Permanent 
+239.255.255.250                               01-00-5e-7f-ff-fa  Permanent 
+
+Interface 16: Wireless Network Connection 3
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+255.255.255.255                               ff-ff-ff-ff-ff-ff  Permanent 
+
+Interface 27: VMware Network Adapter VMnet8
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+192.168.80.255                                ff-ff-ff-ff-ff-ff  Permanent 
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+224.0.0.252                                   01-00-5e-00-00-fc  Permanent 
+239.255.255.250                               01-00-5e-7f-ff-fa  Permanent 
+
+Interface 23: Local Area Connection 2
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+224.0.0.22                                    01-00-5e-00-00-16  Permanent 
+
+The following command was not found: interface ipv4 show prefix.
+"ping 172.0.0.1" 
+
+Pinging 172.0.0.1 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.0.0.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+"ping -4 honduras.dragon.example.org" 
+
+Pinging honduras.dragon.example.org [192.168.164.13] with 32 bytes of data:
+Reply from 192.168.164.13: bytes=32 time=1ms TTL=128
+Reply from 192.168.164.13: bytes=32 time=8ms TTL=128
+Reply from 192.168.164.13: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.13: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.164.13:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 8ms, Average = 2ms
+"ping -4 panama.dragon.example.org" 
+
+Pinging panama.dragon.example.org [192.168.164.14] with 32 bytes of data:
+Reply from 192.168.164.14: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.14: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.14: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.14: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.164.14:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+"ping -4 peru.dragon.example.org" 
+
+Pinging peru.dragon.example.org [192.168.164.16] with 32 bytes of data:
+Reply from 192.168.164.16: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.16: bytes=32 time<1ms TTL=128
+Reply from 192.168.164.16: bytes=32 time=1ms TTL=128
+Reply from 192.168.164.16: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.164.16:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+"netsh interface ipv6 show addresses" 
+
+Interface 1: Loopback Pseudo-Interface 1
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite ::1
+
+Interface 11: Wireless Network Connection
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::4954:1576:8509:a4fb%11
+
+Interface 15: Wireless Network Connection 2
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::f5e0:4737:f0e3:9833%15
+
+Interface 10: Local Area Connection
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::718d:b290:753:4cbd%10
+Dhcp       Preferred       52m33s      7m33s feca::979a:bfe7:693f:5d99%1
+
+Interface 12: Teredo Tunneling Pseudo-Interface
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::ffff:ffff:fffe%12
+
+Interface 45: isatap.dragon.example.org
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:192.168.165.0%45
+
+Interface 20: isatap.{59F9B45F-AE12-42BA-B2DE-B1F5A643363C}
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:169.254.237.67%20
+
+Interface 26: VMware Network Adapter VMnet1
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::2cff:2b62:585:ed43%26
+
+Interface 16: Wireless Network Connection 3
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::af:826d:a4c:d4f7%16
+
+Interface 21: isatap.{C0AAD8B0-6724-4568-B3B1-F83A58A07965}
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:192.168.80.1%21
+
+Interface 27: VMware Network Adapter VMnet8
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Preferred     infinite   infinite fe80::d490:ccd0:3ad4:ab72%27
+
+Interface 23: Local Area Connection 2
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::64d3:739:a66c:52c%23
+
+Interface 24: isatap.mnstate.edu
+
+Addr Type  DAD State   Valid Life Pref. Life Address
+---------  ----------- ---------- ---------- ------------------------
+Other      Deprecated    infinite   infinite fe80::5efe:192.168.184.46%24
+
+"netsh interface ipv6 show udpstats" 
+
+MIB-II UDP Statistics
+------------------------------------------------------
+In Datagrams:                       221
+In Invalid Port:                    166
+In Erroneous Datagrams:             2799
+Out Datagrams:                      4506
+
+
+"netsh interface ipv6 show tcpstats" 
+
+MIB-II TCP Statistics
+------------------------------------------------------
+Timeout Algorithm:                  Van Jacobson's Algorithm
+Minimum Timeout:                    10
+Maximum Timeout:                    4294967295
+Maximum Connections:                Dynamic
+Active Opens:                       21
+Passive Opens:                      7
+Attempts Failed:                    15
+Established Resets:                 3
+Currently Established:              0
+In Segments:                        1130
+Out Segments:                       1102
+Retransmitted Segments:             28
+In Errors:                          0
+Out Resets:                         44
+
+
+"netsh interface ipv6 show ipstats" 
+MIB-II IP Statistics
+------------------------------------------------------
+Forwarding is:                      Disabled
+Default TTL:                        128
+In Receives:                        3439
+In Header Errors:                   0
+In Address Errors:                  125
+Datagrams Forwarded:                0
+In Unknown Protocol:                0
+In Discarded:                       2965
+In Delivered:                       6345
+Out Requests:                       18040
+Routing Discards:                   0
+Out Discards:                       0
+Out No Routes:                      8
+Reassembly Timeout:                 60
+Reassembly Required:                0
+Reassembled Ok:                     0
+Reassembly Failures:                0
+Fragments Ok:                       0
+Fragments Failed:                   0
+Fragments Created:                  0
+
+
+"netsh interface ipv6 show neighbors" 
+
+Interface 1: Loopback Pseudo-Interface 1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::2                                                          Permanent 
+ff02::c                                                          Permanent 
+ff02::16                                                         Permanent 
+ff02::1:2                                                        Permanent 
+ff02::1:ff10:a7cc                                                Permanent 
+ff02::1:ff29:c77b                                                Permanent 
+ff02::1:ff63:c26f                                                Permanent 
+ff02::1:ff64:1                                                   Permanent 
+ff02::1:ff64:13                                                  Permanent 
+ff02::1:ff64:14                                                  Permanent 
+ff02::1:ff64:16                                                  Permanent 
+ff02::1:ff74:d80                                                 Permanent 
+ff02::1:ff8d:d53c                                                Permanent 
+ff02::1:ffb3:dfd0                                                Permanent 
+ff02::1:ffd1:3566                                                Permanent 
+
+Interface 11: Wireless Network Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::c                                       33-33-00-00-00-0c  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff09:a4fb                             33-33-ff-09-a4-fb  Permanent 
+
+Interface 15: Wireless Network Connection 2
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+
+Interface 10: Local Area Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::b8f6:6b5c:1f1e:dac1                     00-0c-29-b2-a0-8b  Stale 
+feca::164:14                                  00-0c-29-b2-a0-8b  Stale 
+feca::9c89:cca1:5810:a7cc                     00-0c-29-b2-a0-8b  Stale 
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff1e:dac1                             33-33-ff-1e-da-c1  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff3f:5d99                             33-33-ff-3f-5d-99  Permanent 
+ff02::1:ff53:4cbd                             33-33-ff-53-4c-bd  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+
+Interface 12: Teredo Tunneling Pseudo-Interface
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+::                                            Unreachable        Unreachable 
+2001:4860:4860::8888                          Unreachable        Unreachable 
+ff02::2                                       255.255.255.255:65535  Permanent 
+ff02::16                                      255.255.255.255:65535  Permanent 
+ff02::1:2                                     255.255.255.255:65535  Permanent 
+ff02::1:ff00:0                                255.255.255.255:65535  Permanent 
+ff02::1:ff00:1                                255.255.255.255:65535  Permanent 
+ff02::1:ff00:2                                255.255.255.255:65535  Permanent 
+ff02::1:ff00:3                                255.255.255.255:65535  Permanent 
+ff02::1:ff00:8888                             255.255.255.255:65535  Permanent 
+ff02::1:ff10:a7cc                             255.255.255.255:65535  Permanent 
+ff02::1:ff11:7713                             255.255.255.255:65535  Permanent 
+ff02::1:ff1e:dac1                             255.255.255.255:65535  Permanent 
+ff02::1:ff29:c77b                             255.255.255.255:65535  Permanent 
+ff02::1:ff63:c26f                             255.255.255.255:65535  Permanent 
+ff02::1:ff64:1                                255.255.255.255:65535  Permanent 
+ff02::1:ff64:13                               255.255.255.255:65535  Permanent 
+ff02::1:ff64:14                               255.255.255.255:65535  Permanent 
+ff02::1:ff64:16                               255.255.255.255:65535  Permanent 
+ff02::1:ff74:d80                              255.255.255.255:65535  Permanent 
+ff02::1:ff8d:d53c                             255.255.255.255:65535  Permanent 
+ff02::1:ffb3:dfd0                             255.255.255.255:65535  Permanent 
+ff02::1:ffd1:3566                             255.255.255.255:65535  Permanent 
+ff02::1:ffd3:1152                             255.255.255.255:65535  Permanent 
+
+Interface 26: VMware Network Adapter VMnet1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff85:ed43                             33-33-ff-85-ed-43  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+
+Interface 16: Wireless Network Connection 3
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+
+Interface 27: VMware Network Adapter VMnet8
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+ff02::1:ffd4:ab72                             33-33-ff-d4-ab-72  Permanent 
+
+Interface 23: Local Area Connection 2
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:ff10:a7cc                             33-33-ff-10-a7-cc  Permanent 
+ff02::1:ff29:c77b                             33-33-ff-29-c7-7b  Permanent 
+ff02::1:ff63:c26f                             33-33-ff-63-c2-6f  Permanent 
+ff02::1:ff64:1                                33-33-ff-64-00-01  Permanent 
+ff02::1:ff64:13                               33-33-ff-64-00-13  Permanent 
+ff02::1:ff64:14                               33-33-ff-64-00-14  Permanent 
+ff02::1:ff64:16                               33-33-ff-64-00-16  Permanent 
+ff02::1:ff74:d80                              33-33-ff-74-0d-80  Permanent 
+ff02::1:ff8d:d53c                             33-33-ff-8d-d5-3c  Permanent 
+ff02::1:ffb3:dfd0                             33-33-ff-b3-df-d0  Permanent 
+ff02::1:ffd1:3566                             33-33-ff-d1-35-66  Permanent 
+
+Querying active state...
+
+Precedence  Label  Prefix
+----------  -----  --------------------------------
+        50      0  ::1/128
+        40      1  ::/0
+        30      2  2002::/16
+        20      3  ::/96
+        10      4  ::ffff:0:0/96
+         5      5  2001::/32
+
+"ping ::1" 
+
+Pinging ::1 with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+"ping -6 honduras.dragon.example.org" 
+
+Pinging honduras.dragon.example.org [feca::bc06:7e71:f529:c77b%1] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for feca::bc06:7e71:f529:c77b%1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+"ping -6 panama.dragon.example.org" 
+
+Pinging panama.dragon.example.org [feca::9c89:cca1:5810:a7cc%1] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for feca::9c89:cca1:5810:a7cc%1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+"ping -6 peru.dragon.example.org" 
+
+Pinging peru.dragon.example.org [feca::4389:8591:ffd3:1152%1] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for feca::4389:8591:ffd3:1152%1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+"date /t" 
+Sun 12/14/2014 
+
+----------------BATCH FILE-------------------------------
+
+REM Casey Bladow
+REM December 14, 2014
+REM This Batch file will gather IP stats and TCP/UDPv6 data
+
+echo "netsh interface ipv4 show addresses" >> final1.txt
+netsh interface ipv4 show addresses >> final1.txt
+echo
+
+echo "netsh interface ipv4 show udpstats" >> final1.txt
+netsh interface ipv4 show udpstats >> final1.txt
+echo
+
+echo "netsh interface ipv4 show tcpstats" >> final1.txt
+netsh interface ipv4 show tcpstats >> final1.txt
+echo
+
+echo "netsh interface ipv4 show ipstats" >> final1.txt
+netsh interface ipv4 show ipstats >> final1.txt
+echo
+
+echo "netsh interface ipv4 show neighbors" >> final1.txt
+netsh interface ipv4 show neighbors >> final1.txt
+echo
+
+echo "netsh interface ipv4 show prefix >> final1.txt
+netsh interface ipv4 show prefix >> final1.txt
+echo
+
+echo "ping 172.0.0.1" >> final1.txt
+ping 172.0.0.1 >> final1.txt
+echo
+
+echo "ping -4 honduras.dragon.example.org" >> final1.txt
+ping -4 honduras.dragon.example.org >> final1.txt
+echo
+
+echo "ping -4 panama.dragon.example.org" >> final1.txt
+ping -4 panama.dragon.example.org >> final1.txt
+echo
+
+echo "ping -4 peru.dragon.example.org" >> final1.txt
+ping -4 peru.dragon.example.org >> final1.txt
+echo
+
+echo "netsh interface ipv6 show addresses" >> final1.txt
+netsh interface ipv6 show addresses >> final1.txt
+echo
+
+echo "netsh interface ipv6 show udpstats" >> final1.txt
+netsh interface ipv6 show udpstats >> final1.txt
+echo
+
+echo "netsh interface ipv6 show tcpstats" >> final1.txt
+netsh interface ipv6 show tcpstats >> final1.txt
+echo
+
+echo "netsh interface ipv6 show ipstats" >> final1.txt
+netsh interface ipv6 show ipstats >> final1.txt
+echo
+
+echo "netsh interface ipv6 show neighbors" >> final1.txt
+netsh interface ipv6 show neighbors >> final1.txt
+echo
+
+echo "netsh interface ipv6 show prefix >> final1.txt
+netsh interface ipv6 show prefix >> final1.txt
+echo
+
+echo "ping ::1" >> final1.txt
+ping ::1 >> final1.txt
+echo
+
+echo "ping -6 honduras.dragon.example.org" >> final1.txt
+ping -6 honduras.dragon.example.org >> final1.txt
+echo
+
+echo "ping -6 panama.dragon.example.org" >> final1.txt
+ping -6 panama.dragon.example.org >> final1.txt
+echo
+
+echo "ping -6 peru.dragon.example.org" >> final1.txt
+ping -6 peru.dragon.example.org >> final1.txt
+echo
+
+echo "date /t" >> final1.txt
+date /t >> final1.txt

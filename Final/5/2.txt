@@ -1,0 +1,23 @@
+Setting	State	Comment
+Prohibit adding and removing components for a LAN or remote access connection	Not configured	No
+Prohibit access to the Advanced Settings item on the Advanced menu	Not configured	No
+Prohibit TCP/IP advanced configuration	Not configured	No
+Prohibit Enabling/Disabling components of a LAN connection	Not configured	No
+Ability to delete all user remote access connections	Not configured	No
+Prohibit deletion of remote access connections	Not configured	No
+Prohibit access to the Remote Access Preferences item on the Advanced menu	Not configured	No
+Enable Windows 2000 Network Connections settings for Administrators	Not configured	No
+Turn off notifications when a connection has only limited or no connectivity	Not configured	No
+Prohibit access to properties of components of a LAN connection	Not configured	No
+Ability to Enable/Disable a LAN connection	Disabled	No
+Prohibit access to properties of a LAN connection	Not configured	No
+Prohibit access to the New Connection Wizard	Not configured	No
+Ability to change properties of an all user remote access connection	Not configured	No
+Prohibit access to properties of components of a remote access connection	Not configured	No
+Prohibit connecting and disconnecting a remote access connection	Not configured	No
+Prohibit changing properties of a private remote access connection	Not configured	No
+Ability to rename all user remote access connections	Not configured	No
+Ability to rename LAN connections or remote access connections available to all users	Not configured	No
+Ability to rename LAN connections	Not configured	No
+Prohibit renaming private remote access connections	Not configured	No
+Prohibit viewing of status for an active connection	Not configured	No

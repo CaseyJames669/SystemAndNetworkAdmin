@@ -1,0 +1,3 @@
+Setting	State	Comment
+Prohibit access of the Windows Connect Now wizards	Enabled	No
+Configuration of wireless settings using Windows Connect Now	Not configured	No

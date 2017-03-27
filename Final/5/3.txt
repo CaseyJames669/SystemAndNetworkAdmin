@@ -1,0 +1,91 @@
+Setting	State	Comment
+Notifications		
+Add Search Internet link to Start Menu	Not configured	No
+Clear history of recently opened documents on exit	Not configured	No
+Clear the recent programs list for new users	Not configured	No
+Clear history of tile notifications on exit	Not configured	No
+List desktop apps first in the Apps view	Not configured	No
+Search just apps from the Apps view	Not configured	No
+Add Logoff to the Start Menu	Not configured	No
+Go to the desktop instead of Start when signing in	Not configured	No
+Gray unavailable Windows Installer programs Start Menu shortcuts	Not configured	No
+Turn off personalized menus	Not configured	No
+Lock the Taskbar	Not configured	No
+Start Screen Layout	Not configured	No
+Add "Run in Separate Memory Space" check box to Run dialog box	Not configured	No
+Turn off notification area cleanup	Not configured	No
+Remove Balloon Tips on Start Menu items	Not configured	No
+Prevent users from customizing their Start Screen	Not configured	No
+Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands	Not configured	No
+Remove common program groups from Start Menu	Not configured	No
+Remove Favorites menu from Start Menu	Not configured	No
+Remove Search link from Start Menu	Not configured	No
+Remove frequent programs list from the Start Menu	Not configured	No
+Remove Games link from Start Menu	Not configured	No
+Remove Help menu from Start Menu	Not configured	No
+Turn off user tracking	Not configured	No
+Remove All Programs list from the Start menu	Not configured	No
+Remove Network Connections from Start Menu	Not configured	No
+Remove pinned programs list from the Start Menu	Not configured	No
+Do not keep history of recently opened documents	Not configured	No
+Remove Recent Items menu from Start Menu	Not configured	No
+Do not use the search-based method when resolving shell shortcuts	Not configured	No
+Do not use the tracking-based method when resolving shell shortcuts	Not configured	No
+Remove Run menu from Start Menu	Enabled	No
+Remove Default Programs link from the Start menu.	Not configured	No
+Remove Documents icon from Start Menu	Not configured	No
+Remove Music icon from Start Menu	Not configured	No
+Remove Network icon from Start Menu	Not configured	No
+Remove Pictures icon from Start Menu	Not configured	No
+Do not search communications	Not configured	No
+Remove Search Computer link	Not configured	No
+Remove See More Results / Search Everywhere link	Not configured	No
+Do not search for files	Not configured	No
+Do not search Internet	Not configured	No
+Do not search programs and Control Panel items	Not configured	No
+Remove programs on Settings menu	Not configured	No
+Prevent changes to Taskbar and Start Menu Settings	Not configured	No
+Remove Downloads link from Start Menu	Not configured	No
+Remove Homegroup link from Start Menu	Not configured	No
+Remove Recorded TV link from Start Menu	Not configured	No
+Remove user's folders from the Start Menu	Not configured	No
+Remove Videos link from Start Menu	Not configured	No
+Force classic Start Menu	Not configured	No
+Remove Clock from the system notification area	Not configured	No
+Prevent grouping of taskbar items	Not configured	No
+Do not display any custom toolbars in the taskbar	Not configured	No
+Remove access to the context menus for the taskbar	Not configured	No
+Hide the notification area	Not configured	No
+Prevent users from uninstalling applications from Start	Not configured	No
+Remove user folder link from Start Menu	Not configured	No
+Remove user name from Start Menu	Not configured	No
+Remove links and access to Windows Update	Not configured	No
+Change Start Menu power button	Not configured	No
+Show QuickLaunch on Taskbar	Not configured	No
+Remove the "Undock PC" button from the Start Menu	Not configured	No
+Show the Apps view automatically when the user goes to Start	Not configured	No
+Show "Run as different user" command on Start	Not configured	No
+Add the Run command to the Start Menu	Not configured	No
+Show Start on the display the user is using when they press the Windows logo key	Not configured	No
+Remove Logoff on the Start Menu	Not configured	No
+Pin Apps to Start when installed	Not configured	No
+Remove the Action Center icon	Not configured	No
+Remove the networking icon	Not configured	No
+Remove the battery meter	Not configured	No
+Remove the volume control icon	Not configured	No
+Turn off feature advertisement balloon notifications	Not configured	No
+Do not allow pinning Store app to the Taskbar	Not configured	No
+Do not allow pinning items in Jump Lists	Not configured	No
+Do not allow pinning programs to the Taskbar	Not configured	No
+Do not display or track items in Jump Lists from remote locations	Not configured	No
+Turn off automatic promotion of notification icons to the taskbar	Not configured	No
+Show Windows Store apps on the taskbar	Not configured	No
+Lock all taskbar settings	Not configured	No
+Prevent users from adding or removing toolbars	Not configured	No
+Prevent users from rearranging toolbars	Not configured	No
+Do not allow taskbars on more than one display	Not configured	No
+Turn off all balloon notifications	Not configured	No
+Remove pinned programs from the Taskbar	Not configured	No
+Prevent users from moving taskbar to another screen dock location	Not configured	No
+Prevent users from resizing the taskbar	Not configured	No
+Turn off taskbar thumbnails	Not configured	No

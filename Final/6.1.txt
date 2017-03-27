@@ -1,0 +1,5 @@
+Theory: Short Summary[edit]
+The Maximum bandwidth can be calculated as follows:
+
+where RWIN is the TCP Receive Window and RTT is the round-trip time for the path. The Max TCP Window size in the absence of TCP window scale option is 65,535bytes.Example: Max Bandwidth = 65535 bytes / 0.220 s = 297886.36 B/s * 8 = 2.383 Mbit/s. Over a single TCP connection between those endpoints, the tested bandwidth will be restricted to 2.376 Mbit/s even if the contracted bandwidth is greater.
+Source: http://en.wikipedia.org/wiki/Measuring_network_throughput

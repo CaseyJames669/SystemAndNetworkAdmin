@@ -1,0 +1,42 @@
+Log Name:      Microsoft-Windows-PrintService/Operational
+Source:        Microsoft-Windows-PrintService
+Date:          10/26/2014 4:04:05 PM
+Event ID:      307
+Task Category: Printing a document
+Level:         Information
+Keywords:      Classic Spooler Event,Document Print Job
+User:          DRAGON\CaseyAND
+Computer:      peru.dragon.example.org
+Description:
+Document 8, Print Document owned by CaseyAND on \\192.168.165.1 was printed on Black Magic through port 192.168.164.100.  Size in bytes: 0. Pages printed: 1. No user action is required.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PrintService" Guid="{747EF6FD-E535-4D16-B510-42C90F6873A1}" />
+    <EventID>307</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>26</Task>
+    <Opcode>11</Opcode>
+    <Keywords>0x4000000000000840</Keywords>
+    <TimeCreated SystemTime="2014-10-26T21:04:05.216829600Z" />
+    <EventRecordID>638</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1124" ThreadID="5016" />
+    <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+    <Computer>peru.dragon.example.org</Computer>
+    <Security UserID="S-1-5-21-1113400074-3126433249-2230376872-2618" />
+  </System>
+  <UserData>
+    <DocumentPrinted xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+      <Param1>8</Param1>
+      <Param2>Print Document</Param2>
+      <Param3>CaseyAND</Param3>
+      <Param4>\\192.168.165.1</Param4>
+      <Param5>Black Magic</Param5>
+      <Param6>192.168.164.100</Param6>
+      <Param7>0</Param7>
+      <Param8>1</Param8>
+    </DocumentPrinted>
+  </UserData>
+</Event>
